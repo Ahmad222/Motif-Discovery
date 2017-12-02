@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: my-cyaction-app
+Bundle-SymbolicName: my-cyaction-app
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.cytoscape.myapp.internal

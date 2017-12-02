@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1467312466370
+Build-Jdk: 1.7.0_79
+Built-By: Ahmad
+Bundle-Activator: org.cytoscape.myapp.internal.CyActivator
+Bundle-Description: This plugin allows the user to do "Network Motif Dis
+ covery" (subgraph search) in a fast and friendly way. It uses the G-Tri
+ es algorithm which is the current fastest one in counting motifs.Note: 
+ This is the beta version.
+Bundle-ManifestVersion: 2
+Bundle-Name: Motif-Discovery
+Bundle-SymbolicName: Motif-Discovery
+Bundle-Version: 0.0.1
+Class-Path: src/main/resources/
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.swing,javax.swing.border,javax.swing.table,org.apa
+ che.commons.logging;version="[1.1,2)",org.cytoscape.application;version
+ ="[3.2,4)",org.cytoscape.application.swing;version="[3.2,4)",org.cytosc
+ ape.model;version="[3.2,4)",org.cytoscape.service.util;version="[3.2,4)
+ ",org.cytoscape.view.model;version="[3.2,4)",org.cytoscape.view.present
+ ation.property;version="[3.2,4)",org.cytoscape.view.presentation.proper
+ ty.values;version="[3.2,4)",org.cytoscape.view.vizmap;version="[3.2,4)"
+ ,org.cytoscape.view.vizmap.mappings;version="[3.2,4)",org.osgi.framewor
+ k;version="[1.5,2)"
+Tool: Bnd-1.50.0
