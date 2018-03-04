@@ -11,11 +11,6 @@ from requests.status_codes import codes
 # Basic Setup
 PORT_NUMBER = 1234
 HOST = 'localhost'
-#BASE = 'http://localhost:' + str(PORT_NUMBER) + '/v1/'
-
-# Header for posting data to the server as JSON
-HEADERS = {'Content-Type': 'application/json'}
-
 
 def function_example():
     """
